@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  
+  	<parameters  name="patientFullname" value="DODDS, BRAIN"/>
+  	<parameters  name="homeNo" value="Home: (888) 663-1919"/>
+  	<parameters  name="mobileNo" value="Mobile: --"/>
+  	<parameters  name="ssn" value="SSN: XXX-XX-7777"/>
+  	<parameters  name="pcp" value="PCP: Dickey,Doug"/>
+  	<parameters  name="agd" value="60 years M DOB: 05/25/1956"/>
+
+    <classes>
+       <class name="platformTests.ORN_VR_PatientSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
